@@ -3,10 +3,14 @@
 
 package console
 
+import (
+	"errors"
+)
+
 func checkConsole(f File) error {
-	return nil, "unsupported"
+	return errors.New("unsupported")
 }
 
 func newMaster(f File) (Console, error) {
-	return nil, "unsupported"
+	return nil, errors.New("unsupported")
 }
