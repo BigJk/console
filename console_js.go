@@ -3,7 +3,7 @@
 
 package console
 
-func checkConsole() (Console, error) {
+func checkConsole(f File) error {
 	return nil, "unsupported"
 }
 
